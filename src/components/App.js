@@ -3,7 +3,7 @@ import "./../styles/App.css";
 
 function App() {
   
-  const [set,Csettime] = useState(0);
+  const [set,Csettime] = useState("");
   const handleClick = () =>{
     Csettime("Hello, I've learnt to use the full-stack evaluation tool. This makes me so happy");
   }
